@@ -1,0 +1,47 @@
+# Dependencias
+node_modules/
+.pnp
+.pnp.js
+__pycache__/
+*.py[cod]
+venv/
+
+# Variaveis de ambiente (NUNCA suba .env real)
+.env
+.env.local
+.env.*.local
+
+# Build
+dist/
+build/
+.next/
+out/
+.cache/
+
+# Banco de dados local
+*.db
+*.sqlite
+*.sqlite3
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+npm-debug.log*
+
+# Testes
+coverage/
+.nyc_output/
+
+# Arquivos pesados
+*.mp4
+*.mov
+*.zip
+*.tar.gz
